@@ -45,7 +45,7 @@ const MusicPlayer = () => {
             <div className="bg-black bg-opacity-50 p-4 border-2 border-dashed border-secondary">
                 <div className="flex items-center justify-center gap-4">
                      <Image 
-                        src="/after-hours.png" 
+                        src="/wekned.png" 
                         alt="The Weeknd - After Hours Album Cover" 
                         width={80} 
                         height={80} 
