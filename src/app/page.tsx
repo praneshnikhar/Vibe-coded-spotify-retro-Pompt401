@@ -4,15 +4,13 @@ import Navigation from '@/components/retro/navigation';
 import MusicPlayer from '@/components/retro/music-player';
 import Guestbook from '@/components/retro/guestbook';
 import LastUpdated from '@/components/retro/last-updated';
+import AudioController from '@/components/retro/audio-controller';
 
 export default function Home() {
   return (
     <>
       <StarryBackground />
       <main className="container mx-auto p-4">
-        <audio autoPlay loop>
-           <source src="/midi/space.mid" type="audio/midi" />
-        </audio>
         <div className="max-w-5xl mx-auto">
           <table className="w-full border-4 border-double border-primary" cellPadding="10" cellSpacing="0">
             <thead>
@@ -28,10 +26,7 @@ export default function Home() {
                 </td>
                 <td className="w-1/6 space-y-2 align-middle text-center">
                   <Image src="https://placehold.co/150x50.png" alt="Best viewed in Netscape" width={150} height={50} data-ai-hint="netscape banner" className="mx-auto" unoptimized />
-                  <div className="flex justify-center gap-2">
-                     <Image src="https://placehold.co/50x25.png" alt="New!" width={50} height={25} data-ai-hint="new badge red" className="animate-blink" unoptimized />
-                    <Image src="https://placehold.co/50x25.png" alt="Hot!" width={50} height={25} data-ai-hint="hot badge" className="animate-flash" unoptimized />
-                  </div>
+                  <AudioController />
                 </td>
               </tr>
               <tr>
