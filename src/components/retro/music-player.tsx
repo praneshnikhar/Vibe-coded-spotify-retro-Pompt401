@@ -14,7 +14,7 @@ const MusicPlayer = () => {
     // In a real app, this would control actual audio
     const audioRef = useRef<HTMLAudioElement | null>(null); 
     const [currentTime, setCurrentTime] = useState(0);
-    const [duration, setDuration] = useState(215); // Dummy duration
+    const [duration, setDuration] = useState(243); // Duration for After Hours
     
     const playSound = (sound: string) => {
         // This is a browser-only API
@@ -45,8 +45,8 @@ const MusicPlayer = () => {
             <div className="bg-black bg-opacity-50 p-4 border-2 border-dashed border-secondary">
                 <div className="flex items-center justify-center gap-4">
                      <Image 
-                        src="https://placehold.co/80x80.png" 
-                        alt="Lit - A Place in the Sun Album Cover" 
+                        src="/after-hours.png" 
+                        alt="The Weeknd - After Hours Album Cover" 
                         width={80} 
                         height={80} 
                         data-ai-hint="album art"
@@ -55,8 +55,8 @@ const MusicPlayer = () => {
                     />
                     <div>
                         <p className="text-xl text-yellow-300">Now Playing:</p>
-                        <p className="text-2xl text-cyan-300">My Own Worst Enemy</p>
-                        <p className="text-lg text-gray-400">by Lit</p>
+                        <p className="text-2xl text-cyan-300">After Hours</p>
+                        <p className="text-lg text-gray-400">by The Weeknd</p>
                     </div>
                 </div>
 
