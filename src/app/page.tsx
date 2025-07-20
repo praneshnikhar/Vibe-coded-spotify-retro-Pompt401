@@ -25,7 +25,6 @@ export default function Home() {
                   <p className="font-headline text-xl md:text-2xl text-lime-300">Your Digital Music Zone!</p>
                 </td>
                 <td className="w-1/6 space-y-2 align-middle text-center">
-                  <Image src="https://placehold.co/150x50.png" alt="Best viewed in Netscape" width={150} height={50} data-ai-hint="netscape banner" className="mx-auto" unoptimized />
                   <AudioController />
                 </td>
               </tr>
