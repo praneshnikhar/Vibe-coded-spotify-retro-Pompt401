@@ -16,7 +16,7 @@ export default function Home() {
             <thead>
               <tr>
                 <td className="w-1/6 align-middle text-center">
-                  <Image src="/cd.png" alt="Spinning CD" width={80} height={80} className="animate-spin-slow mx-auto" unoptimized />
+                  <Image src="/disk1.png" alt="Spinning CD" width={80} height={80} className="animate-spin-slow mx-auto" unoptimized />
                 </td>
                 <td className="w-4/6 text-center">
                   <h1 className="font-headline text-5xl md:text-6xl text-primary text-shadow-rainbow leading-none" style={{ textRendering: 'optimizeLegibility' }}>
