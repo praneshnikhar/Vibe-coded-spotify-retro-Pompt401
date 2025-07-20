@@ -46,7 +46,7 @@ const MusicPlayer = () => {
                 <div className="flex items-center justify-center gap-4">
                      <Image 
                         src="https://placehold.co/80x80.png" 
-                        alt="Spinning CD" 
+                        alt="Lit - A Place in the Sun Album Cover" 
                         width={80} 
                         height={80} 
                         data-ai-hint="album art"

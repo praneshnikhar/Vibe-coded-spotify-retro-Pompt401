@@ -18,7 +18,7 @@ export default function Home() {
             <thead>
               <tr>
                 <td className="w-1/6 align-middle text-center">
-                  <Image src="https://placehold.co/80x80.png" alt="Spinning CD" width={80} height={80} data-ai-hint="spinning cd" className="animate-spin-slow mx-auto" unoptimized />
+                  <Image src="https://placehold.co/80x80.png" alt="Nirvana - Nevermind Album Cover" width={80} height={80} data-ai-hint="album art" className="animate-spin-slow mx-auto" unoptimized />
                 </td>
                 <td className="w-4/6 text-center">
                   <h1 className="font-headline text-5xl md:text-6xl text-primary text-shadow-rainbow leading-none" style={{ textRendering: 'optimizeLegibility' }}>
