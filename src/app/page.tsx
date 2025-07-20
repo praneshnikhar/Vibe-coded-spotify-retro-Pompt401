@@ -74,10 +74,31 @@ export default function Home() {
 
                         </td>
                         <td className="w-1/5 align-top p-2 border-l-2 border-primary text-center space-y-4 hidden md:table-cell" id="webmaster">
-                          <h2 className="font-headline text-2xl text-accent">WebMaster Zone</h2>
-                          <p className="text-sm text-lime-300 font-headline">Contact me on AOL Instant Messenger!</p>
-                           <Image src="https://placehold.co/120x60.png" width={120} height={60} alt="Email Me" data-ai-hint="email me gif" className="mx-auto" unoptimized />
-                           <p className='font-headline text-yellow-300'>AIM: sp0t1fyHacker</p>
+                          <h2 className="font-headline text-3xl text-accent">WebMaster Zone</h2>
+                          <div className='font-headline text-yellow-300 text-sm space-y-4'>
+                            <p>This site was coded by hand by a true web enthusiast!</p>
+                            <Image src="https://placehold.co/120x60.png" width={120} height={60} alt="Email Me" data-ai-hint="email me gif" className="mx-auto" unoptimized />
+                            <p>Email: <a href="mailto:webmaster@spotify.com" className="text-lime-300 hover:underline">webmaster@spotify.com</a></p>
+                             <p>AIM: sp0t1fyHacker</p>
+                          </div>
+                          
+                          <Image src="https://placehold.co/400x50.png" width={400} height={50} alt="flames" data-ai-hint="flame gif" className="mx-auto my-4" unoptimized />
+
+                          <div className="text-sm font-mono text-cyan-400 space-y-2">
+                             <p>Best viewed in Netscape Navigator 4.0 with a 800x600 resolution.</p>
+                             <p>Thanks for all 47 guestbook entries!</p>
+                             <div className="py-2">
+                                <h3 className="font-headline text-lg text-secondary animate-blink">AWARDS</h3>
+                                <Image src="https://placehold.co/88x31.png" width={88} height={31} alt="Cool Site of the Day" data-ai-hint="cool site badge" className="mx-auto mt-1" unoptimized />
+                             </div>
+                             <div className='text-left p-1 border border-dashed border-lime-400'>
+                                <h4 className='font-headline text-lime-400 underline'>SITE UPDATES:</h4>
+                                <p>01-02-98: Added new MP3s!</p>
+                                <p>01-01-98: Site launch!</p>
+                             </div>
+                          </div>
+                           <Image src="https://placehold.co/400x50.png" width={400} height={50} alt="flames" data-ai-hint="flame gif" className="mx-auto my-4" unoptimized />
+                           <p className='font-headline text-yellow-300'>Thanks for visiting my awesome music site! Email me your favorite bands!</p>
                         </td>
                       </tr>
                     </tbody>
